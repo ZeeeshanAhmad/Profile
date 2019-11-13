@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) ,url("flex/background-01.jpg");
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4));
+
+}
+nav h2{
+    color:white;
+    text-transform: uppercase;
+    margin-top: 27px;
+    font-size: 30px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin:35px 20px ;
+    list-style: none;
+    color:white;
+    text-transform: uppercase;
+   
+}
+nav ul a{
+    text-decoration: none;
+}
+
+.main h3{
+    color: lightgray;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing:1.4px;
+    
+}
+.main h1{
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.main h5{
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background: orange;
+    height: 7vh;
+    width: 120px;
+    margin-left: 630px;
+    border-radius: 10px;
+}
+.lober{
+    height: 110vh;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.sub{
+    margin-top: 50px;
+    height: 45vh;
+    width: 19%;
+    /* border: 1px solid; */
+    margin-left:20px;
+    
+}
+.sub h3{
+    line-height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sub h4{
+    color: orange;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 12px;
+}
+.vehical{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.veci{
+    height: 100vh;
+    width: 45%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background: lightsteelblue;
+}
+.veci h1{
+    margin-top: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.veci p{
+    margin-top: 20px;
+    /* color: lightgray; */
+    font-size: 15px;
+
+}
+.enim{
+   height: 17vh;
+   width: 90%;
+   /* border: 1px solid; */
+   border-radius: 10px;
+   display: flex;
+   margin-top: 20px;
+   background: white;
+}
+.enim img{
+    height: 11vh;
+    padding: 20px;
+}
+.enim h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn1{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background: orange;
+    height: 7vh;
+    width: 120px;
+    border-radius: 10px;
+}
+.amet{
+    height: 100vh;
+    width: 45%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background: lightslategray;
+}
+.amet h1{
+    margin-top: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.amet p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.doe{
+    height: 17vh;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+ }
+ .doe img{
+     height: 11vh;
+     /* padding: 20px; */
+     border-radius: 10%;
+     margin-top: 20px;
+ }
+ .doe h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.doe h5{
+    font-size: 10px;
+    margin-top: 60px;
+    margin-left: -40px;
+
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid; */
+    /* display: flex;
+    justify-content: center; */
+}
+.con h1{
+    margin-top: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.con p{
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.subd{
+    margin-top: 50px;
+    height: 70vh;
+    width: 24%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subd h2{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.subd p{
+    margin-top: 20px;
+
+}
+.btn2{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background: orange;
+    height: 7vh;
+    width: 120px;
+    border-radius: 10px;
+}
+.end{
+    height: 70vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    background: black;
+    opacity: .7;
+}
+.subdiv1{
+    margin-top: 50px;
+    height: 60vh;
+    width: 24%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.subdiv1 h2{
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: white;
+
+}
+.subdiv1 p{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.icons{
+    height: 5vh;
+    width: 90%;
+    padding: 1px;
+    margin-left: 12px;
+    margin-top: 10%; 
+    color: white;
+}
+ .icons i{
+    margin-left: 8px;
+    height: 5vh;
+    width:12%;
+    background:orange;
+    padding: 9px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+
+.subdiv2{
+    margin-top: 50px;
+    height: 60vh;
+    width: 24%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.subdiv2 h2{
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: white;
+
+}
+.subdiv2 p{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.subdiv3{
+    margin-top: 50px;
+    height: 60vh;
+    width: 24%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.subdiv3 h2{
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: white;
+
+}
+.subdiv3 p{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+@media screen and (max-width:450px){
+    .main{
+        height: 90vh;
+    }
+    nav{
+        height: 18vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav h2{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 23px;
+    }
+    nav ul {
+     margin-top: -40px;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+    }
+    nav ul li{
+        font-size: 13px;
+        margin:0px 5px ;
+    }
+    .main h3{
+        font-size: 15px; 
+    }
+    .main h1{
+        font-size: 20px;
+    }
+    .main h5{
+        font-size: 10px;
+    }
+    .btn{
+        margin-left: 100px;
+
+    }
+    .lober{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 330vh;
+    }
+    .sub{
+        margin-top: 20px;
+        height: 35vh;
+        width: 65%;
+        margin-left: -15px;  
+    }
+    .sub h3{
+        line-height: 40px;
+        font-size: 12px;
+    }
+    
+    .sub h4{
+        line-height: 40px;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:370px){
+    .vehical{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .veci{
+        height: auto;
+        width: 80%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        background: lightsteelblue;
+    }
+    .veci h1{
+        margin-top: 20px;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .veci p{
+        margin-top: 20px;
+        /* color: lightgray; */
+        font-size: 13px;
+    
+    }
+    .enim{
+       height: 17vh;
+       width: 90%;
+       /* border: 1px solid; */
+       border-radius: 10px;
+       display: flex;
+       margin-top: 20px;
+       background: white;
+       margin-left: 10px;
+    }
+    .enim img{
+        height: 11vh;
+        padding: 20px;
+        width: 50%;
+    }
+    .enim h2{
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .btn1{
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 40px;
+        text-transform: uppercase;
+        background: orange;
+        height: 7vh;
+        width: 60%;
+        border-radius: 10px;
+    }
+    .amet{
+        height: auto;
+        width: 80%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        background: lightslategray;
+        margin-top: 10px;
+    }
+    .amet h1{
+        margin-top: 50px;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .amet p{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .doe{
+        height: 17vh;
+        width: 90%;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+     }
+     .doe img{
+         height: 11vh;
+         /* padding: 20px; */
+         border-radius: 10%;
+         margin-top: 20px;
+     }
+     .doe h3{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .doe h5{
+        font-size: 10px;
+        margin-top: 60px;
+        margin-left: -40px;
+    
+    }
+    .con{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        border: 1px solid;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .con h1{
+        margin-top: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .con h2{
+        margin-left: 30px;
+    }
+    .con p{
+        font-size: 15px;
+        margin-top: -150px;
+        margin-left: 30px;
+        /* width: 70px; */
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subd{
+        margin-top: 50px;
+        height: 70vh;
+        width: 90%;
+        text-align: center;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .subd img{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .subd h2{
+        margin-top: 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+    
+    }
+    .subd p{
+        margin-top: 20px;
+    
+    }
+    .subd h4{
+        margin-left: 90px;
+    }
+    .btn2{
+        color: white;
+        text-align: center;
+        margin-top: 35px;
+        margin-left: 40px;
+        text-transform: uppercase;
+        background: orange;
+        height: 7vh;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+
+    .end{
+        height: 200vh;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        background: black;
+        opacity: .7;
+        flex-direction: column;
+    }
+    .subdiv1{
+        margin-top: 20px;
+        height: auto;
+        width: 90%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    .subdiv1 h2{
+        margin-top: 30px;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: white;
+    
+    }
+    .subdiv1 p{
+        margin-top: 30px;
+        margin-left: 20px;
+        color: whitesmoke;
+    }
+    .icons{
+        height: 5vh;
+        width: 90%;
+        padding: 1px;
+        margin-left: 12px;
+        margin-top: 10%; 
+        color: white;
+    }
+     .icons i{
+        margin-left: 8px;
+        height: 5vh;
+        width:12%;
+        background:orange;
+        padding: 9px;
+        box-sizing: border-box;
+        color: white;
+        
+    }
+    
+    
+    .subdiv2{
+        margin-top: 90px;
+        height: auto;
+        width:90%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    .subdiv2 h2{
+        margin-top: 30px;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: white;
+    
+    }
+    .subdiv2 p{
+        margin-top: 30px;
+        margin-left: 20px;
+        color: whitesmoke;
+    }
+    
+    .subdiv3{
+        margin-top: 90px;
+        height: auto;
+        width: 90%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    .subdiv3 h2{
+        margin-top: 30px;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: white;
+    
+    }
+    .subdiv3 p{
+        margin-top: 30px;
+        margin-left: 20px;
+        color: whitesmoke;
+    }
+    
+
+}
